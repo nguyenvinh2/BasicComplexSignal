@@ -16,11 +16,18 @@ def computeSignal(setPath):
   dataSize = numpy.size(dataReshape)
   dataMean = numpy.mean(dataReshape,axis=0)
   print(dataSize)
-  plt.plot(dataMean)
+
+  x=[0,1,3]
+  txt = [4,5,6]
+
   plt.title('Signal Strength of Returning Objects')
   plt.xlabel('Range: x150m')
   plt.ylabel('Signal Strength')
+  plt.plot(dataMean)
+  plt.scatter(x,txt, marker='o')
   plt.show()
   return;
+
+def heatmapSignal(setPath);
 
 computeSignal(setPath)
