@@ -11,6 +11,8 @@ Assuming the speed of light is c = 300,000,000 m/s, each returning sample is sep
 
 ### Data Visualization
 
+![Data](assets/python_data_output.PNG)
+
 ## Methods
 
 Since the incoming signals are proportional to the Voltage level, take the square of each signal data should be proportional to power as well. Reflected signals off of airborne objects should result in higher than normal returns over the ambient noise levels.
