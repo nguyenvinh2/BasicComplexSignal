@@ -16,6 +16,8 @@ def computeSignal(setPath):
   dataSize = numpy.size(dataReshape)
   dataMean = numpy.mean(dataReshape,axis=0)
 
+  print(dataComplex)
+
   plt.title('Signal Strength of Returning Objects')
   plt.xlabel('Range: x150m')
   plt.ylabel('Signal Strength')
